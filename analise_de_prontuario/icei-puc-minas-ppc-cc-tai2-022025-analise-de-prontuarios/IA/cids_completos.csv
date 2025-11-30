@@ -1,0 +1,41 @@
+﻿Codigo;Descricao;Sintomas
+A00;Cólera;Diarreia intensa, vômitos, desidratação, câibras musculares
+A00.0;Cólera devida a Vibrio cholerae 01, biótipo clássico;Diarreia aquosa grave, vômitos, desidratação rápida
+A00.1;Cólera devida a Vibrio cholerae 01, biótipo El Tor;Diarreia intensa, cólicas, fadiga, desidratação
+A01;Febres tifóide e paratifóide;Febre alta, dor abdominal, dor de cabeça, fraqueza, diarreia ou constipação
+A02;Outras infecções por Salmonella;Febre, diarreia, náusea, dor abdominal, vômitos
+A03;Shiguelose;Diarreia com muco ou sangue, cólicas abdominais, febre, náusea
+A04;Outras infecções intestinais bacterianas;Diarreia, dor abdominal, febre, náusea, vômitos
+A05;Outras intoxicações alimentares bacterianas;Náusea, vômitos, diarreia, dor abdominal, febre leve
+A06;Amebíase;Diarreia com sangue, dor abdominal, cólicas, fadiga
+A07;Outras doenças intestinais por protozoários;Diarreia persistente, dor abdominal, perda de peso, febre
+A08;Infecções intestinais virais;Diarreia aquosa, febre, náusea, desidratação
+A09;Diarreia e gastroenterite de origem infecciosa presumível;Diarreia, cólicas, desidratação leve a moderada
+J00;Nasofaringite aguda (resfriado comum);Coriza, espirros, tosse leve, mal-estar
+J01;Sinusite aguda;Dor facial, congestão nasal, febre, secreção nasal espessa
+J02;Faringite aguda;Dor de garganta, febre, dificuldade para engolir
+J03;Amigdalite aguda;Dor de garganta intensa, febre, inchaço das amígdalas
+J04;Laringite aguda;Rouquidão, tosse seca, irritação na garganta
+J05;Laringotraqueíte e epiglotite;Tosse latido, dificuldade para respirar, febre
+J06;Infecções agudas das vias aéreas superiores;Tosse, congestão, febre leve, mal-estar
+J09;Gripe devida a vírus identificado;Febre alta, dores no corpo, tosse seca, mal-estar
+J10;Gripe por vírus não identificado;Febre, tosse, dores musculares, fadiga
+J11;Gripe vírus não especificado;Calafrios, mal-estar, congestão, tosse forte
+J12;Pneumonia viral;Febre, falta de ar, tosse seca, dor no peito
+J13;Pneumonia por Streptococcus pneumoniae;Febre, tosse produtiva, dor torácica, cansaço
+J14;Pneumonia por Haemophilus influenzae;Febre, falta de ar, chiado, tosse com catarro
+J15;Pneumonia bacteriana;Tosse intensa, febre alta, dor no peito, dificuldade para respirar
+J18;Pneumonia não especificada;Tosse, febre, calafrios, falta de ar
+J20;Bronquite aguda;Tosse persistente, chiado, dor no peito, cansaço
+J21;Bronquiolite aguda;Chiado, dificuldade para respirar, respiração rápida
+J22;Infecções das vias aéreas inferiores;Tosse, falta de ar, febre moderada
+J30;Rinite alérgica;Espirros, coriza, coceira nasal, congestão
+J32;Sinusite crônica;Congestão persistente, dor facial, tosse crônica
+J40;Bronquite não especificada;Tosse contínua, catarro, falta de ar leve
+J41;Bronquite crônica simples e mucopurulenta;Tosse crônica com muco, chiado, fadiga
+J42;Bronquite crônica não especificada;Tosse persistente, muco espesso, falta de ar
+J44;Doença pulmonar obstrutiva crônica (DPOC);Falta de ar, chiado, tosse crônica, cansaço extremo
+J45;Asma;Falta de ar, chiado no peito, tosse, aperto no peito
+I10;Hipertensão essencial (primária);Pressão alta persistente, dor de cabeça, tontura
+M54.5;Dor lombar baixa;Dor na lombar, rigidez, dificuldade de movimentação
+B20;Doença pelo HIV;Febre, perda de peso, fadiga, infecções frequentes

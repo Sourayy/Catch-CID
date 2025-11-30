@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Prontuário</title>
+
+    <link rel="stylesheet" href="prontuario-form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="titulo-area">
+      <h2 class="titulo">CATCH CID</h2>
+    </div>
+
+    <div class="formulario-area">
+      <h3>PRONTUÁRIO</h3>
+      <form id="prontuario">
+        <div class="linha-dupla">
+          <div class="item">
+            <label for="paciente">PACIENTE:</label>
+            <input type="text" id="paciente" required />
+          </div>
+
+          <div class="item">
+            <label for="idade">IDADE:</label>
+            <input type="number" id="idade" required />
+          </div>
+        </div>
+
+        <div class="item">
+          <label for="data">DATA:</label>
+          <input type="date" id="data" required />
+        </div>
+
+        <div class="item coluna">
+          <label for="sintomas">SINTOMAS</label>
+          <div class="textarea-container">
+            <textarea id="sintomas" maxlength="400" required></textarea>
+          </div>
+        </div>
+
+        <div class="item cid">
+          <label for="cid">CID:</label>
+          <input
+            list="cids-datalist"
+            id="cid"
+            placeholder="Digite ou selecione um CID"
+            required
+          />
+          <datalist id="cids-datalist"></datalist>
+        </div>
+
+        <div class="item coluna">
+          <label for="tratamento">TRATAMENTO</label>
+          <div class="textarea-container">
+            <textarea id="tratamento" maxlength="400" required></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="botao-formulario" [disable]="isLoading">
+          ENVIAR
+        </button>
+
+        <img
+          src="assets/elementos_mvp/avatar.jpg"
+          alt="Avatar de ajuda"
+          class="avatar"
+        />
+        <div id="balao-feedback" class="balao" style="display: none">
+          <p id="mensagem-feedback"></p>
+        </div>
+      </form>
+    </div>
+
+    <script src="prontuario-form.js" defer></script>
+  </body>
+</html>
