@@ -26,7 +26,7 @@ cidInput.addEventListener("focus", () => {
 
 async function carregarCIDs() {
   try {
-    const response = await fetch("./../IA/cids_completos.csv");
+    const response = await fetch("./IA/cids_completos.csv");
     const texto = await response.text();
 
     const linhas = texto
